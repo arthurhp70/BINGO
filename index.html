@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>BINGO</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <header>
+        <h1>BINGO</h1>
+        <section id="nome" class="header">
+                          
+                <button onclick="gerarCartela()">
+                    Gerar cartela
+                </button>
+                
+                <button onclick="correrBingo()" disabled>
+                    Jogar
+                </button>
+                
+                <button onclick="reiniciarJogo()">
+                    Reiniciar
+                </button>
+           
+           
+        </section>
+    </header>
+    <main>
+       
+        <div class="div">
+            <h2>Cartelas:</h2>
+            <div id="cartelas" class="main"></div>
+        </div>
+        
+        <div class="div">
+            <h2>Números sorteados:</h2>
+            <section id="numeros" class="main"></section>
+        </div>
+    
+    </main>
+
+    <footer>Developed by @arthurgiacomin</footer>
+
+</body>
+
+</html>
